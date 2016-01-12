@@ -1,0 +1,12 @@
+name: orbit
+description: Custom theme for Foundation 6 Orbit
+core: 8.x
+type: theme
+libraries:
+ - orbit/global-css
+ - orbit/global-js
+ 
+stylesheets-remove:
+- core/themes/stable/css/system/components/align.module.css
+- core/themes/stable/css/views/views.module.css
+
